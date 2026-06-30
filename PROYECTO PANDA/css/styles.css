@@ -1,0 +1,278 @@
+body {
+    height: 2000px;
+    background-image: url('../imagenes/fondo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgba(226, 111, 3, 0.692);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: rgb(221,
+    214,
+    194);
+}
+
+a {
+    font-weight: bold
+}
+
+h1 {
+    color: rgba(129,
+    63,
+    2,
+    0.692);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.img-fluid {
+    opacity: 0.9;
+}
+
+.btn-main {
+    background-color: rgba(226, 111, 3, 0.692);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    background-color: rgba(28, 92, 28, 0.418);
+    color: #1a6104;
+    transition: 1.0s;
+}
+
+.logo-img {
+    height: 80px;
+    width: auto
+}
+
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+}
+
+.d-block {
+    border-radius: 20px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.accordion-button.collapsed {
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 250, 250);
+    color: #1a6104;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    background-color: rgba(28, 92, 28, 0.418);
+    color: #1a6104;
+}
+
+.nav-custom .nav-link {
+    border: 1px solid #1a6104;
+    color: #1a6104;
+    font-weight: 600;
+}
+
+.nav-custom .nav-link.active {
+    background: rgba(226, 111, 3, 0.692);
+    color: black !important;
+}
+
+.info-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,
+    0,
+    0,
+    0.5);
+}
+
+.info-card h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.modal-header {
+    color: #1a6104 !important;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+.btn-1 {
+    border: #1a6104 solid;
+}
+
+.form-control:focus {
+    border-color: #8fd19e;
+    box-shadow: 0 0 0 0.2rem rgba(143,
+    209,
+    158,
+    0.25);
+}
+
+H5 {
+    font-size: 15PX;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.footer-container {
+    line-height: 30px;
+}
+
+.mb-1,
+.correo {
+    font-size: 15px;
+}
+
+.list-unstyled {
+    font-size: 15px;
+}
+
+
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 52px;
+            height: 52px;
+            background-color: rgba(226, 111, 3, 0.692);
+            /* color rojo que combina con el navbar */
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            /* Por encima del navbar */
+            opacity: 0;
+            visibility: hidden;
+            /* Oculto inicialmente */
+            transform: scale(0.8);
+            text-decoration: none;
+            border: none;
+            outline: none;
+        }
+
+        /* Cuando la clase .show está presente (visible) */
+        .scroll-to-top.show {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+        }
+
+        /* Hover efecto */
+        .scroll-to-top:hover {
+            background-color: #165c01;
+            transform: scale(1.08);
+            transition: all 0.2s ease;
+            color: white;
+        }
+
+        :root{
+            --color-principal: rgb(80, 40, 2);
+        }
+
+        .titulo {
+            color: ·333;
+            font-weight: bold;
+            margin-top: 50px;
+            font-size: 24px;
+        }
+
+        .subtitulo {
+            color: #666;
+            font-size: 20px;
+            margin-bottom: 40px;
+            margin-top: 30px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,
+                0,
+                0,
+                .15) ;
+                transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            object-fit: cover;
+        }
+
+        .card-title  {
+            color: var(--color-principal);
+            font-weight: bold;
+        }
+
+        .btn-panda {
+            background: var(--color-principal);
+            color: white;
+            font-weight: bold;
+            border: none;
+            width: 100%;
+            border-radius: 8px;
+        }
+
+footer {
+    background: rgba(226, 111, 3, 0.692);
+    color: #fff !important;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: 12PX;
+}
