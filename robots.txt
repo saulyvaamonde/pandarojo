@@ -1,0 +1,5 @@
+user-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://pandarojoproyectoweb.netlify.app/Sitemap.xml
